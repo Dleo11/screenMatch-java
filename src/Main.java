@@ -54,5 +54,15 @@ public class Main {
  *
  *
  * Reto:
- *
- * */
+ * int i = 0;
+ * while(i<3){
+ *     Scanner teclado = new Scanner(System.in);
+ *     System.out.println("Ingresa tu calificación sobre la pelicula" + nombre);
+ *     evaluacionMatrix = teclado.nextDouble();
+ *     mediaEvaluacionUser = mediaEvaluacionUser + evaluacionMatrix;
+ *     i++;
+ *  }
+ * System.out.println("La califiación general por parte de los usuarios es de: " + mediaEvaluacionUser/3);
+ */
+
+
